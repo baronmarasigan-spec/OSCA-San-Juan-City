@@ -4025,8 +4025,8 @@ export function WeddingAnniversaryForm({
         </div>
       </section>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 sm:px-0">
-        <div className="lg:col-span-1 space-y-6">
+      <div className="flex flex-col gap-8 px-4 sm:px-0">
+        <div className="w-full space-y-6">
           <section className="bg-white border border-slate-100 rounded-2xl md:rounded-[2rem] p-6 md:p-8 shadow-xl shadow-slate-200/50 space-y-6 md:space-y-8">
             <div className="flex items-center justify-center sm:justify-start gap-3">
               <div className="w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center text-blue-500">
@@ -4036,7 +4036,7 @@ export function WeddingAnniversaryForm({
                 Eligibility
               </h3>
             </div>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-5">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <li className="flex items-start gap-4">
                 <div
                   className={cn(
@@ -4117,7 +4117,7 @@ export function WeddingAnniversaryForm({
           </section>
         </div>
 
-        <div className="lg:col-span-2 space-y-8">
+        <div className="w-full space-y-8">
           <form
             onSubmit={handleSubmit}
             className="bg-white rounded-2xl md:rounded-[2rem] shadow-xl shadow-slate-200/50 p-6 md:p-8 lg:p-12 border border-slate-100 space-y-10 md:space-y-12"
